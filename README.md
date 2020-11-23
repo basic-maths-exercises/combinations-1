@@ -1,1 +1,3 @@
-# combinations-1
+# Generating combinations
+
+When we studied generating numbers in binary representation you saw how we can generate all the possible combinations of zeros and ones by taking all the non-negative integers that are less than ![](https://render.githubusercontent.com/render/math?math=2^N) and converting them to binary.  What I would like you to do now is to complete the function called `gen_combinations`.  This function should generate all the combinations of `R` ones and `N-R` zeros.  You will need to use what you have learned about binary conversion from previous exercises to generate all possible lists of ones and zeros.  Within this loop, you should add an if statement to append those that have exactly `R` ones in them to the list of lists called `allcombinations`.  This list will be returned from your function.
